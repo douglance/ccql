@@ -1,6 +1,6 @@
 # ccql
 
-SQL query engine for Claude Code data.
+**Claude Code Query Language** - SQL query engine for Claude Code data.
 
 ## Installation
 

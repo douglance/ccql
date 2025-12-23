@@ -2,8 +2,15 @@
 name = "ccql"
 version = "0.1.0"
 edition = "2021"
-description = "CLI tool for querying Claude Code data"
+description = "Claude Code Query Language - SQL query engine for Claude Code data"
 authors = ["Doug Lance"]
+license = "MIT"
+repository = "https://github.com/douglance/ccql"
+homepage = "https://github.com/douglance/ccql"
+readme = "README.md"
+keywords = ["claude", "sql", "cli", "query", "anthropic"]
+categories = ["command-line-utilities", "development-tools"]
+rust-version = "1.70"
 
 [dependencies]
 # CLI
