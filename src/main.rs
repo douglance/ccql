@@ -1,14 +1,14 @@
 use clap::{Parser, Subcommand};
 use std::path::PathBuf;
 
-use ccq::cli::commands;
-use ccq::cli::OutputFormat;
-use ccq::config::Config;
-use ccq::error::Result;
-use ccq::models::TodoStatus;
+use ccql::cli::commands;
+use ccql::cli::OutputFormat;
+use ccql::config::Config;
+use ccql::error::Result;
+use ccql::models::TodoStatus;
 
 #[derive(Parser)]
-#[command(name = "ccq")]
+#[command(name = "ccql")]
 #[command(author = "Claude Code Query")]
 #[command(version = "0.1.0")]
 #[command(about = "Query and analyze Claude Code data", long_about = None)]
@@ -180,7 +180,7 @@ async fn main() -> Result<()> {
 
     if cli.verbose {
         tracing_subscriber::fmt()
-            .with_env_filter("ccq=debug")
+            .with_env_filter("ccql=debug")
             .init();
     }
 

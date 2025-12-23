@@ -519,7 +519,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ccq"
+name = "ccql"
 version = "0.1.0"
 dependencies = [
  "anyhow",

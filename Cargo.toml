@@ -1,5 +1,5 @@
 [package]
-name = "ccq"
+name = "ccql"
 version = "0.1.0"
 edition = "2021"
 description = "CLI tool for querying Claude Code data"
@@ -58,5 +58,5 @@ async-trait = "0.1.89"
 tempfile = "3.8"
 
 [[bin]]
-name = "ccq"
+name = "ccql"
 path = "src/main.rs"
