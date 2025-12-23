@@ -4,7 +4,41 @@
 
 ## Installation
 
+### Homebrew (macOS/Linux)
+
 ```bash
+brew install douglance/tap/ccql
+```
+
+### Shell script (macOS/Linux)
+
+```bash
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/douglance/ccql/releases/latest/download/ccql-installer.sh | sh
+```
+
+### PowerShell (Windows)
+
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://github.com/douglance/ccql/releases/latest/download/ccql-installer.ps1 | iex"
+```
+
+### npm
+
+```bash
+npm install -g ccql
+```
+
+### Cargo
+
+```bash
+cargo install ccql
+```
+
+### From source
+
+```bash
+git clone https://github.com/douglance/ccql
+cd ccql
 cargo install --path .
 ```
 
